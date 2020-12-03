@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T02:49:16.973Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="KJvvD1GQZQUBpO5EqTxB" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T02:51:07.193Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="IcxkOfwumJc4uiHjtx2g" version="13.10.6" type="github">
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
     <mxGraphModel dx="2245" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="az9H7xqMgQHj3aL3T-Eh-21" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1060" y="460" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="az9H7xqMgQHj3aL3T-Eh-15" value="Message Endpoint" style="strokeWidth=2;dashed=0;align=center;fontSize=12;shape=rect;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#c0f5a9" vertex="1" parent="az9H7xqMgQHj3aL3T-Eh-21">
+        <mxCell id="az9H7xqMgQHj3aL3T-Eh-15" value="管理员" style="strokeWidth=2;dashed=0;align=center;fontSize=12;shape=rect;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#c0f5a9" vertex="1" parent="az9H7xqMgQHj3aL3T-Eh-21">
           <mxGeometry width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="az9H7xqMgQHj3aL3T-Eh-16" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="az9H7xqMgQHj3aL3T-Eh-21">
@@ -62,6 +62,9 @@
             <mxPoint x="1667" y="145" as="sourcePoint" />
             <mxPoint x="407" y="220" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="az9H7xqMgQHj3aL3T-Eh-24" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="810" width="1590" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
