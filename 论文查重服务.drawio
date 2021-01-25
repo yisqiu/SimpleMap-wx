@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T00:03:25.528Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="DRa3DxJ6XjiZSqy1iNhx" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T00:09:49.321Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="TwFdEvL1_EPUbBRZmiya" version="14.0.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2254" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -170,13 +170,13 @@
           </mxCell>
         </object>
         <mxCell id="fv30kqONhBUnfQ6e0FZD-30" value="完善个人信息&lt;br&gt;上传身份证" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="400" y="580" width="100" height="80" as="geometry" />
+          <mxGeometry x="400" y="540" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fv30kqONhBUnfQ6e0FZD-32" value="&lt;span style=&quot;font-size: 11px ; font-weight: 700&quot;&gt;账号&lt;br&gt;密码&lt;br&gt;登录&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="285" y="600" width="55" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="fv30kqONhBUnfQ6e0FZD-33" value="上传查重论文&lt;br&gt;上传支付凭证" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="400" y="670" width="100" height="80" as="geometry" />
+        <mxCell id="fv30kqONhBUnfQ6e0FZD-33" value="上传支付凭证" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="100" height="80" as="geometry" />
         </mxCell>
         <object label="" id="fv30kqONhBUnfQ6e0FZD-34">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;fontStyle=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fv30kqONhBUnfQ6e0FZD-32" target="fv30kqONhBUnfQ6e0FZD-30">
@@ -186,7 +186,7 @@
               <mxPoint x="750" y="710" as="targetPoint" />
               <Array as="points">
                 <mxPoint x="370" y="660" />
-                <mxPoint x="370" y="620" />
+                <mxPoint x="370" y="580" />
               </Array>
             </mxGeometry>
           </mxCell>
@@ -199,7 +199,7 @@
               <mxPoint x="400" y="630" as="targetPoint" />
               <Array as="points">
                 <mxPoint x="370" y="660" />
-                <mxPoint x="370" y="710" />
+                <mxPoint x="370" y="740" />
               </Array>
             </mxGeometry>
           </mxCell>
@@ -243,11 +243,11 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="fv30kqONhBUnfQ6e0FZD-42" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;上传查重报告&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="782.5" y="640" width="107.5" height="40" as="geometry" />
+        <mxCell id="fv30kqONhBUnfQ6e0FZD-42" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;管理员上传查重报告&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="782.5" y="640" width="127.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fv30kqONhBUnfQ6e0FZD-45" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;用户下载报告&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="640" width="107.5" height="40" as="geometry" />
+          <mxGeometry x="950" y="640" width="107.5" height="40" as="geometry" />
         </mxCell>
         <object label="" id="fv30kqONhBUnfQ6e0FZD-46">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;fontStyle=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fv30kqONhBUnfQ6e0FZD-42" target="fv30kqONhBUnfQ6e0FZD-45">
@@ -256,6 +256,35 @@
               <mxPoint x="890" y="659.5" as="sourcePoint" />
               <mxPoint x="927.5" y="659.5" as="targetPoint" />
               <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="fv30kqONhBUnfQ6e0FZD-47" value="上传查重论文" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="100" height="80" as="geometry" />
+        </mxCell>
+        <object label="" id="fv30kqONhBUnfQ6e0FZD-48">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;fontStyle=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fv30kqONhBUnfQ6e0FZD-32" target="fv30kqONhBUnfQ6e0FZD-47">
+            <mxGeometry y="10" relative="1" as="geometry">
+              <mxPoint as="offset" />
+              <mxPoint x="350" y="670" as="sourcePoint" />
+              <mxPoint x="410" y="750" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="360" y="660" />
+                <mxPoint x="360" y="660" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" id="fv30kqONhBUnfQ6e0FZD-49">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;fontStyle=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+            <mxGeometry y="10" relative="1" as="geometry">
+              <mxPoint as="offset" />
+              <mxPoint x="576" y="720" as="sourcePoint" />
+              <mxPoint x="636" y="720" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="596" y="720" />
+                <mxPoint x="596" y="720" />
+              </Array>
             </mxGeometry>
           </mxCell>
         </object>
