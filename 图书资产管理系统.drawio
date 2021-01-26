@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T07:02:22.278Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="DlmzYzZX7eN-5Jiex6Ss" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T07:05:48.558Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="gRYgmbZiWDU6phIibLH3" version="14.0.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2652" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -7,10 +7,10 @@
         <mxCell id="78961159f06e98e8-17" value="发票信息表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="70" y="261" width="250" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-21" value="ID(ID,自动编号）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="78961159f06e98e8-21" value="ID(ID,自动编号）" style="text;html=1;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="26" width="250" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-25" value="BILLNO（发票号，varchar，255）" style="text;html=1;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="78961159f06e98e8-25" value="BILLNO（发票号，varchar，255）" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="50" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-26" value="BILLDATE（发票日期，date）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
@@ -61,13 +61,13 @@
         <mxCell id="78961159f06e98e8-42" value="moditiyTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
           <mxGeometry y="190" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-43" value="书目信息表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+        <mxCell id="78961159f06e98e8-43" value="书目信息表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#d0cee2;fontFamily=Verdana;fontSize=12;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="560" y="260" width="280" height="398" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-1" value="ID(ID,自动编号）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-43">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-15" value="BILLID(发票ID,int）" style="text;html=1;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-43">
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-15" value="BILL_ID(发票表ID号,int）" style="text;html=1;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-43">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-45" value="RECORD_ID（书目控制号,bigint,20）" style="text;html=1;strokeColor=#ae4132;fillColor=#fad9d5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-43" vertex="1">
@@ -109,11 +109,11 @@
         <mxCell id="k7EIBzekK6eVn-YPp8g2-3" value="moditiyTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-43">
           <mxGeometry y="372" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-128" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="78961159f06e98e8-25" target="k7EIBzekK6eVn-YPp8g2-15" edge="1">
+        <mxCell id="78961159f06e98e8-128" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="78961159f06e98e8-21" target="k7EIBzekK6eVn-YPp8g2-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="440" y="299" />
               <mxPoint x="440" y="325" />
-              <mxPoint x="560" y="324" />
             </Array>
             <mxPoint x="170" y="903" as="sourcePoint" />
             <mxPoint x="40" y="941" as="targetPoint" />
@@ -125,9 +125,8 @@
         <mxCell id="ig7GmsLrZiSCmSus0x5H-2" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="78961159f06e98e8-24" target="78961159f06e98e8-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="320" y="377" />
-              <mxPoint x="350" y="377" />
-              <mxPoint x="350" y="542" />
+              <mxPoint x="360" y="377" />
+              <mxPoint x="360" y="542" />
               <mxPoint x="195" y="542" />
             </Array>
             <mxPoint x="310" y="427" as="sourcePoint" />
@@ -148,7 +147,7 @@
             <Array as="points">
               <mxPoint x="880" y="377" />
               <mxPoint x="880" y="690" />
-              <mxPoint x="675" y="690" />
+              <mxPoint x="700" y="690" />
             </Array>
             <mxPoint x="820" y="658.9999999999998" as="sourcePoint" />
             <mxPoint x="770" y="627" as="targetPoint" />
@@ -160,7 +159,7 @@
         <mxCell id="k7EIBzekK6eVn-YPp8g2-13" value="ID(ID,自动编号）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-9">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-12" value="CURRENCYNAME（币种,varchar,50）" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-9">
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-12" value="CURRENCYNAME（币种,varchar,50）" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-9">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-127" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78961159f06e98e8-50" target="k7EIBzekK6eVn-YPp8g2-9" edge="1">
@@ -173,7 +172,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-17" value="书目套录总表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-17" value="书目套录总表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#ffcccc;fontFamily=Verdana;fontSize=12;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1080" y="260" width="290" height="250" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-38" value="RECORD_ID（元数据控制号,varchar,255）" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
@@ -266,8 +265,9 @@
             <mxPoint x="915" y="978" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1080" y="640" />
-              <mxPoint x="915" y="640" />
-              <mxPoint x="915" y="739" />
+              <mxPoint x="1040" y="640" />
+              <mxPoint x="1040" y="739" />
+              <mxPoint x="1225" y="739" />
             </Array>
           </mxGeometry>
         </mxCell>
