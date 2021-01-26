@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T13:10:52.081Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="99halURCRJbEY5adrjq1" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T05:50:57.792Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jXbEfsgpPV1-cq7Rqu4Q" version="14.0.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="3052" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="k7EIBzekK6eVn-YPp8g2-15" value="BILLID(发票ID,int）" style="text;html=1;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-43">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-45" value="RECORD_ID（书目控制号,bigint,20）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-43" vertex="1">
+        <mxCell id="78961159f06e98e8-45" value="RECORD_ID（书目控制号,bigint,20）" style="text;html=1;strokeColor=#ae4132;fillColor=#fad9d5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-43" vertex="1">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-49" value="PROPERTYNO（资产号,varchar,100）" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-43" vertex="1">
@@ -169,49 +169,41 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-17" value="书目套录总表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="1080" y="260" width="230" height="370" as="geometry" />
+          <mxGeometry x="1080" y="260" width="290" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-18" value="ID(ID,自动编号）" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="26" width="230" height="24" as="geometry" />
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-38" value="RECORD_ID（元数据控制号,varchar,255）" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-19" value="NAME（姓名,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="50" width="230" height="26" as="geometry" />
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-46" value="TITLE（题名,varchar,255）" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-20" value="CERTID（学工号,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="76" width="230" height="26" as="geometry" />
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-39" value="AUTHOR（作者,varchar,255）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-21" value="IDCARD（身份证号,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="102" width="230" height="26" as="geometry" />
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-40" value="ISBN（ISBN,varchar,255）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
+          <mxGeometry y="104" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-22" value="TEL（电话,varchar,50）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="128" width="230" height="26" as="geometry" />
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-41" value="PUBLISHER（出版社,varchar,255）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
+          <mxGeometry y="130" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-23" value="EMAIL（邮箱,varchar,50）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="154" width="230" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-24" value="DEP（学院,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="180" width="230" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-25" value="MAJOR（专业,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="206" width="230" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-26" value="DEGREE（学位,int,1）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="232" width="230" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-27" value="OPENID（小程序OPENID,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="258" width="230" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-28" value="SCHOOLID（学校ID,int）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="284" width="230" height="26" as="geometry" />
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-42" value="PUB_DATE（出版日期,varchar,255）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
+          <mxGeometry y="156" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-29" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="310" width="230" height="8" as="geometry" />
+          <mxGeometry y="186" width="290" height="8" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-30" value="createTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="318" width="230" height="26" as="geometry" />
+          <mxGeometry y="194" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-31" value="moditiyTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-17">
-          <mxGeometry y="344" width="230" height="26" as="geometry" />
+          <mxGeometry y="220" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-47" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="78961159f06e98e8-45" target="k7EIBzekK6eVn-YPp8g2-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="850" y="350" as="sourcePoint" />
+            <mxPoint x="1230" y="350.9999999999998" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
