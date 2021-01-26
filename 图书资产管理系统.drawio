@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T05:50:57.792Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jXbEfsgpPV1-cq7Rqu4Q" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T05:52:37.672Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Eorvhvopw086-hNGx-Um" version="14.0.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="3052" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-5" value="资产号样式" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="610" y="750" width="230" height="80" as="geometry" />
+          <mxGeometry x="560" y="739" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-6" value="院系代码-年份月份-流水号" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-5">
           <mxGeometry y="26" width="230" height="24" as="geometry" />
@@ -141,14 +141,14 @@
             <Array as="points">
               <mxPoint x="880" y="377" />
               <mxPoint x="880" y="650" />
-              <mxPoint x="725" y="650" />
+              <mxPoint x="675" y="650" />
             </Array>
             <mxPoint x="820" y="658.9999999999998" as="sourcePoint" />
             <mxPoint x="770" y="627" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-9" value="币种表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="610" y="873" width="230" height="78" as="geometry" />
+          <mxGeometry x="280" y="741" width="230" height="78" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-13" value="ID(ID,自动编号）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-9">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -160,11 +160,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="659" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="530" y="403" />
-              <mxPoint x="530" y="682" />
-              <mxPoint x="600" y="682" />
-              <mxPoint x="600" y="840" />
-              <mxPoint x="725" y="840" />
+              <mxPoint x="395" y="403" />
             </Array>
           </mxGeometry>
         </mxCell>
