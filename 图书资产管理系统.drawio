@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T00:23:29.391Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="F11mHqMpRlnJBMtXHTn1" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T00:24:06.379Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="8IvDsCX7JaJO-pbNoQFV" version="14.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1118" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry y="240" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-30" value="经费卡号表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#fad7ac;fontFamily=Verdana;fontSize=12;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="160" y="1240" width="280" height="246" as="geometry" />
+          <mxGeometry x="160" y="1240" width="280" height="220" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-31" value="ID(ID,自动编号）" style="text;html=1;strokeColor=#36393d;fillColor=#ffcc99;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -49,23 +49,20 @@
         <mxCell id="78961159f06e98e8-34" value="FUNDNAME（经费名称，varchar，255）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-36" value="CERTNO（证件号，varchar，100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
-          <mxGeometry y="104" width="280" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-124" value="USERID（用户编号,int）" style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
-          <mxGeometry y="130" width="280" height="30" as="geometry" />
+          <mxGeometry y="104" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ig7GmsLrZiSCmSus0x5H-10" value="SCHOOLNO（学校编号，int）" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
-          <mxGeometry y="160" width="280" height="26" as="geometry" />
+          <mxGeometry y="134" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-38" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
-          <mxGeometry y="186" width="280" height="8" as="geometry" />
+          <mxGeometry y="160" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-40" value="createTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
-          <mxGeometry y="194" width="280" height="26" as="geometry" />
+          <mxGeometry y="168" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-42" value="moditiyTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
-          <mxGeometry y="220" width="280" height="26" as="geometry" />
+          <mxGeometry y="194" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-43" value="书目信息表（BOOKTABLE）" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#d0cee2;fontFamily=Verdana;fontSize=12;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="650" y="200" width="280" height="424" as="geometry" />
