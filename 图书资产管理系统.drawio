@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T06:48:07.728Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="eUMPKtwTURtCQWBemCmH" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T01:55:47.468Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="vxe-9T24NBMOOo_J_fXZ" version="14.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1278" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="1100" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="1100" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78961159f06e98e8-17" value="发票信息表（BILLTABLE）" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="160" y="201" width="250" height="266" as="geometry" />
+          <mxGeometry x="160" y="201" width="250" height="292" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-21" value="ID(ID,自动编号）" style="text;html=1;strokeColor=#56517e;fillColor=#d0cee2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="26" width="250" height="24" as="geometry" />
@@ -16,26 +16,29 @@
         <mxCell id="78961159f06e98e8-26" value="BILLDATE（发票日期，date）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="76" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-24" value="FUNDID（经费卡号，int）" style="text;html=1;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="L_gL5fJIsvc0Z-g2lCKV-1" value="BILLAMOUNT（发票金额，DECIMAL(9,2)）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-17">
           <mxGeometry y="102" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ig7GmsLrZiSCmSus0x5H-8" value="USERID（用户ID，int）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="78961159f06e98e8-24" value="FUNDID（经费卡号，int）" style="text;html=1;strokeColor=#b46504;fillColor=#fad7ac;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="128" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ig7GmsLrZiSCmSus0x5H-9" value="SCHOOLNO（学校编号，int）" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="ig7GmsLrZiSCmSus0x5H-8" value="USERID（用户ID，int）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="154" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="k7EIBzekK6eVn-YPp8g2-135" value="STATUS（状态，int）" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="ig7GmsLrZiSCmSus0x5H-9" value="SCHOOLNO（学校编号，int）" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="180" width="250" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="k7EIBzekK6eVn-YPp8g2-135" value="STATUS（状态，int）" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" parent="78961159f06e98e8-17" vertex="1">
+          <mxGeometry y="206" width="250" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="78961159f06e98e8-19" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
-          <mxGeometry y="206" width="250" height="8" as="geometry" />
+          <mxGeometry y="232" width="250" height="8" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-20" value="createTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
-          <mxGeometry y="214" width="250" height="26" as="geometry" />
+          <mxGeometry y="240" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-27" value="moditiyTime（timestamp）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
-          <mxGeometry y="240" width="250" height="26" as="geometry" />
+          <mxGeometry y="266" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-30" value="经费卡号表" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#fad7ac;fontFamily=Verdana;fontSize=12;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="160" y="1240" width="280" height="220" as="geometry" />
@@ -385,13 +388,13 @@
         <mxCell id="k7EIBzekK6eVn-YPp8g2-115" value="DEPNAME（院系名称,varchar,255）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="k7EIBzekK6eVn-YPp8g2-113" vertex="1">
           <mxGeometry y="52" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FMblKMxhFUg3CD-8dmfo-2" value="DEPNO（院系编号，varchar,100）" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-113">
+        <mxCell id="FMblKMxhFUg3CD-8dmfo-2" value="DEPNO（院系编号，varchar,100）" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="k7EIBzekK6eVn-YPp8g2-113" vertex="1">
           <mxGeometry y="82" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-117" value="SCHOOLNO（学校编号，int）" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="k7EIBzekK6eVn-YPp8g2-113" vertex="1">
           <mxGeometry y="108" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FMblKMxhFUg3CD-8dmfo-3" value="FINANCENO（财务编号,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7EIBzekK6eVn-YPp8g2-113">
+        <mxCell id="FMblKMxhFUg3CD-8dmfo-3" value="FINANCENO（财务编号,varchar,100）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="k7EIBzekK6eVn-YPp8g2-113" vertex="1">
           <mxGeometry y="134" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k7EIBzekK6eVn-YPp8g2-118" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="k7EIBzekK6eVn-YPp8g2-113" vertex="1">
