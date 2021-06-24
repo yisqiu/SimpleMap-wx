@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T01:18:09.770Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="FP3i8cVeyEnwdqv5J-hs" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T03:10:24.795Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="XMIwRWTMd0xeL5Ph0LIf" version="14.8.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="979" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -187,16 +187,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FpVBXP-lCSZ8s1tCgsxA-14" value="同步服务&lt;br&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_datasync;" vertex="1" parent="1">
-          <mxGeometry x="280" y="860" width="37.5" height="50" as="geometry" />
+          <mxGeometry x="266" y="850" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FpVBXP-lCSZ8s1tCgsxA-15" value="短信接口服务" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.sms;fillColor=#48B921;strokeColor=none" vertex="1" parent="1">
-          <mxGeometry x="350" y="860" width="60" height="50" as="geometry" />
+          <mxGeometry x="336" y="850" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FpVBXP-lCSZ8s1tCgsxA-16" value="数据服务（SQL）" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
-          <mxGeometry x="454.95" y="860" width="37.5" height="50" as="geometry" />
+          <mxGeometry x="440.95" y="850" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FpVBXP-lCSZ8s1tCgsxA-17" value="文件服务" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="860" width="47.5" height="50" as="geometry" />
+          <mxGeometry x="536" y="850" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-18" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="554.5" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-19" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="655" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-20" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="775" width="37" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
