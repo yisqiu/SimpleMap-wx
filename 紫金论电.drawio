@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T03:10:24.795Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="XMIwRWTMd0xeL5Ph0LIf" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T04:16:32.152Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="xss3waIAK3aszMJ9kjJ6" version="14.8.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="979" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,6 +206,51 @@
         </mxCell>
         <mxCell id="FpVBXP-lCSZ8s1tCgsxA-20" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
           <mxGeometry x="80" y="775" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-21" value="&#xa;&#xa;&#xa;&#xa;信息外网" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1044" width="418" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-39" value="服务器节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-21">
+          <mxGeometry x="31" y="40" width="366" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-22" value="ZJLD02" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-21">
+          <mxGeometry x="260" y="57" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-24" value="ZJLD01" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-21">
+          <mxGeometry x="41" y="57" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-35" value="数据库节点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-21">
+          <mxGeometry x="181" y="176" width="76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-25" value="&#xa;&#xa;&#xa;&#xa;内网区域" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1044" width="85" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-26" value="&#xa;&#xa;&#xa;&#xa;Internet区域" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="699" y="1044" width="83" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-27" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10.5000pt&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;系统逻辑架构图&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="371" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="652" y="1058" width="39.76999999999998" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-28" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-34">
+          <mxGeometry width="39.77" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-29" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-34">
+          <mxGeometry y="35" width="39.77" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-30" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-34">
+          <mxGeometry y="70" width="39.77" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-31" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-34">
+          <mxGeometry y="105" width="39.77" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-32" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-34">
+          <mxGeometry y="140" width="39.77" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FpVBXP-lCSZ8s1tCgsxA-33" value="防火墙" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.firewall" vertex="1" parent="FpVBXP-lCSZ8s1tCgsxA-34">
+          <mxGeometry y="175" width="39.77" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
