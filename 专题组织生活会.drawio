@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T07:55:28.977Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="A6YkU_blvZZkGhl0ysIA" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T10:20:37.143Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qvpWLr-rOQl9s6viUvDE" version="14.8.4" type="github">
   <diagram id="_GguZ7U3eap8ssgsz3NK" name="第 1 页">
     <mxGraphModel dx="979" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2000" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
             <mxPoint x="406" y="995.1500000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ygfgggfhi4tpyGAR1O1i-13" value="党员开展自我批评和批评(沈艺、孙爱梅、许萍华、左素素、耿曼曼)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-13" value="党员开展批评和自我批评(沈艺、孙爱梅、许萍华、左素素、耿曼曼)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="306" y="999.15" width="214" height="37" as="geometry" />
         </mxCell>
         <mxCell id="ygfgggfhi4tpyGAR1O1i-14" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.466;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
@@ -108,6 +108,9 @@
         </mxCell>
         <mxCell id="ygfgggfhi4tpyGAR1O1i-15" value="张校长作重要指示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="306" y="1088.15" width="214" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-16" value="二支部专题组织生活会流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="475" width="265" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
