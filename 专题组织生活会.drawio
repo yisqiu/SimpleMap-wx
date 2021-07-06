@@ -1,56 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T07:43:07.899Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-KrNt5dHCnZ59CdFOl4A" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T07:55:28.977Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="A6YkU_blvZZkGhl0ysIA" version="14.8.4" type="github">
   <diagram id="_GguZ7U3eap8ssgsz3NK" name="第 1 页">
     <mxGraphModel dx="979" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jW9oAG5GVhoArk8jypPi-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="220" width="450" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-3" value="投影" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-3" value="投影" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="125" y="195" width="30" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-4" value="张校长" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-4" value="张校长" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="425" y="145" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-5" value="徐书记" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-5" value="徐书记" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="480" y="145" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-6" value="蒋南" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-6" value="蒋南" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="370" y="145" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-7" value="孙爱梅" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-7" value="孙爱梅" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="310" y="145" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-8" value="沈艺" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-8" value="沈艺" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="540" y="145" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-11" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-11" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="535" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-12" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-12" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="595" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-13" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-13" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="655" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-14" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-14" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="365" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-15" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-15" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="425" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-16" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-16" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="485" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-17" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-17" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="195" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-18" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-18" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="255" y="395" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jW9oAG5GVhoArk8jypPi-19" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="jW9oAG5GVhoArk8jypPi-19" value="" style="shape=mxgraph.signs.transportation.seat_belt;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="315" y="395" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-1" value="介绍出席本次专题组织生活会的领导" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="549" width="214" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-3" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.466;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ygfgggfhi4tpyGAR1O1i-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="407" y="730" as="sourcePoint" />
+            <mxPoint x="408" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-4" value="徐书记介绍支部情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="638" width="214" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-5" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.466;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="407.72399999999993" y="678.9999999999999" as="sourcePoint" />
+            <mxPoint x="408" y="725.15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-6" value="支部书记作支部工作报告、心得、查摆问题、下一步努力的方向" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="729.15" width="214" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-8" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.466;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="407.72399999999993" y="768" as="sourcePoint" />
+            <mxPoint x="408" y="814.1500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-9" value="2位党员（顾小明、葛虹）依次评议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="818.15" width="214" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-10" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.466;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405.72399999999993" y="860" as="sourcePoint" />
+            <mxPoint x="406" y="906.1500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-11" value="支部书记表态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="910.15" width="214" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-12" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.466;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405.72399999999993" y="949" as="sourcePoint" />
+            <mxPoint x="406" y="995.1500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-13" value="党员开展自我批评和批评(沈艺、孙爱梅、许萍华、左素素、耿曼曼)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="999.15" width="214" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-14" value="" style="shape=flexArrow;endArrow=classic;html=1;exitX=0.466;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405.72399999999993" y="1038" as="sourcePoint" />
+            <mxPoint x="406" y="1084.15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ygfgggfhi4tpyGAR1O1i-15" value="张校长作重要指示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="1088.15" width="214" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
